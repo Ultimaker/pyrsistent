@@ -78,7 +78,7 @@ setup(
         'Programming Language :: Python :: 3.6',
         'Programming Language :: Python :: Implementation :: PyPy',
     ],
-    test_suite='tests',
+    #test_suite='tests',
     scripts=[],
     ext_modules=extensions,
     cmdclass={"build_ext": custom_build_ext},
